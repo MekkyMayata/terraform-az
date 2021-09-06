@@ -12,7 +12,7 @@ terraform {
   backend "remote" {
     organization = "devopsninja"
     workspaces {
-      name = "azure-hasw-solution"
+      prefix = "azure-hasw-solution-"
     }
   }
 }
